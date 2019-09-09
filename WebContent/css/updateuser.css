@@ -1,0 +1,88 @@
+@charset "ISO-8859-1";
+*{
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  font-family: montserrat;
+  box-sizing:border-box;
+}
+body{
+min-height: 100vh;
+
+background-image:url(../images/loginback.jpg);
+}
+
+.signup-form
+{
+width: 400px;
+background-color: rgba(241, 241, 241, 0.7);
+height: 620px;
+padding: 80px 40px;
+border-radius: 10px;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+box-shadow: 10px 5px 20px 4px black;
+
+
+}
+
+.signup-form h1
+{
+  text-align: center;
+  margin-top: -50px;
+
+
+}
+
+.txt
+{
+  border-bottom: 2px solid #adadad ;
+  margin: 50px 0px;
+  position: relative;
+}
+
+.txt input
+{
+  font-size: 15px;
+  color:#333;
+  border: none;
+  width: 100%;
+  background: none;
+  outline: none;
+  padding: 0 5px;
+  height: 40px;
+}
+
+
+
+.signup-button{
+
+  display:block;
+  width: 100%;
+  height: 40px;
+  background: linear-gradient(120deg,#3C3B3F,#605c3c,#3C3B3F);
+  border: none;
+  background-size: 200%;
+  color:#fff;
+  cursor: pointer;
+  transition: .5s;
+  margin-top:40px;
+
+
+}
+.signup-button:hover{
+
+  background-position:right;
+}
+
+.bottom-text
+{
+margin-top: 60px;
+text-align: center;
+font-size: 14px;
+
+
+
+}
